@@ -1,0 +1,15 @@
+Okay!!! Steps to setup this and deploy :)
+
+First make sure you have Node.js installed.
+
+1. Then make sure you have moralis account and goto the speedy nodes!
+2. Find Ethereum Mainnet, and then copy the address.
+3. Now goto metamask, make sure you have your Ropsten wallet open, then go into settings, find the private key.
+4. In the project make a file called "secret.json" (PUT IN MAIN FOLDER)
+5. Now run npm install! This will take a second.
+6. Make sure you have hardhat by running 'npx hardhat' in the project.
+7. Make sure you have enough ether in your wallet to cover expenses. Then thats it!
+8. Now run in terminal 'npx hardhat run scripts/deploy_vicehood.js --network ropsten'
+9. Wait for the block to be finished, then your contract should be visible on etherscan Ropsten.
+10. Verify the contract by pasting the contents of the file in 'flattened-contract': 'output.sol' into the place for the .sol contents.
+11. Then everything should be fine on etherscan :)
